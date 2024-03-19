@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  /* Testa pagina */
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+  color: lime;
+}
+
+header img {
+  /* Posizione e Dimensione logo */
+  width: 300px;
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  /* Ridotto lo spazio tra i bottoni */
+  padding: 10px;
+  /* Aggiunto spazio sopra, sotto e ai lati della toolbar */
+  background-color: lime;
+}
+
+.toolbar button {
+  margin: 0 2px;
+  /* Aggiunto spazio tra i bottoni */
+}
+
+
+.container {
+  /* Sfondo nero trasparente */
+  background-color: #000000;
+  opacity: 0.8;
+  margin: 40px;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.Monopattino {
+  /* Testo bianco */
+  color: white;  
+}
+
+.Titlesize {
+  /* Dimensione Titolo monopattino */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.battery-level1 {
+  background-color: orange;
+  height: 20px;
+  width: 9%;
+  /* Livello batteria */
+  position: absolute;
+  top: 466px;
+  /* Posizione barra (Altezza) */
+  left: 200px;
+  /* Posizione barra (Sinistra) */
+  border-radius: 3px;
+}
+
+.battery-level2 {
+  background-color: green;
+  height: 20px;
+  width: 19%;
+  /* Livello batteria */
+  position: absolute;
+  top: 590px;
+  /* Posizione barra (Altezza) */
+  left: 200px;
+  /* Posizione barra (Sinistra) */
+  border-radius: 3px;
+}
+
+.battery-level3 {
+  background-color: red;
+  height: 20px;
+  width: 4%;
+  /* Livello batteria */
+  position: absolute;
+  top: 714px;
+  /* Posizione barra (Altezza) */
+  left: 200px;
+  /* Posizione barra (Sinistra) */
+  border-radius: 3px;
+}
